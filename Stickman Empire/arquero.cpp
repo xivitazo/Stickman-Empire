@@ -1,8 +1,9 @@
 #include "arquero.h"
 
 
-arquero::arquero(void)
+arquero::arquero()
 {
+	this -> vida = stats::vida;
 }
 
 

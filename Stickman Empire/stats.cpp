@@ -1,13 +1,12 @@
 #include "stats.h"
 
 
-stats::stats(unsigned int vida=0,unsigned int ataque=0, unsigned int rango=0, unsigned int velocidad_max=0, unsigned armadura=0)
+stats::stats(unsigned int vida_max=0,unsigned int ataque=0, unsigned int rango=0, unsigned int velocidad_max=0)
 {
-	vida=jvida;
-	ataque=jataque;
-	rango=jrango;
-	velocidad_max=jvelocidad_max;
-	armadura=jarmadura;
+	this->vida_max=vida_max;
+	this->ataque=ataque;
+	this->rango = rango;
+	this->velocidad_max=velocidad_max;
 }
 
 

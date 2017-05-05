@@ -1,14 +1,13 @@
 #pragma once
-#include "vector.h"
-#include "stats.h"
-class arquero
+#include "personaje.h"
+class arquero : public personaje 
 {
 public:
-	arquero(void);
-	~arquero(void);
-
+	arquero(void) {numero++;}
+	~arquero(void){ numero--;}
+	void dibuja();
+	
+	
 private:
-	vector posicion, velocidad;
-	stats stat;
+	static int nivel, numero;
 };
-

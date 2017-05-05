@@ -2,12 +2,16 @@
 class vector
 {
 public:
-	vector(void);
-	~vector(void);
+	vector(float x=0, float y=0);
+	virtual ~vector(void);
 	float modulo ();
-	float set_Valor(float x, float y);
-	float get_x();
-	float get_y();
+	void setValor(float x, float y);
+	float getX();
+	float getY();
+	vector operator - (vector &);
+	vector operator + (vector &);
+	vector operator * (float);
+	float operator * (vector &);
 private:
 	float vx, vy;
 };

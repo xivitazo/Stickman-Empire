@@ -9,6 +9,8 @@ public:
 	
 	//Eres imbecil
 	// y tu
+protected:
+	float tumadre; //huele mal
 private:
 	static int nivel, numero;
 };

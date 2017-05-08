@@ -8,6 +8,7 @@ public:
 	void dibuja();
 	
 	//Eres imbecil
+	// y tu
 private:
 	static int nivel, numero;
 };

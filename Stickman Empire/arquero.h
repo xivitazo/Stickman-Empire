@@ -7,7 +7,7 @@ public:
 	~arquero(void){ numero--;}
 	void dibuja();
 	
-	
+	//Eres imbecil
 private:
 	static int nivel, numero;
 };

@@ -39,6 +39,13 @@ vector vector :: operator * (float n)
 	aux.vy =vy *n;
 	return aux;
 }
+vector vector :: operator / (float n)
+{
+	vector aux;
+	aux.vx =vx /n;
+	aux.vy =vy /n;
+	return aux;
+}
 
 float vector::modulo()
 {
@@ -48,4 +55,10 @@ float vector::modulo()
 float vector::argumento()
 {
 	return (float)atan2(vy,vx);
+}
+vector vector:: unitario ()
+{
+	vector u (vx,vy);
+	return u/modulo();
+
 }

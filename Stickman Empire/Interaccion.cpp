@@ -10,14 +10,8 @@ Interaccion::~Interaccion(void)
 {
 }
 
-void Interaccion::ataque ( Disparo &d, edificio &e)
+void Interaccion:: ataque (vector posicion, unsigned int daño, unsigned int salpicadura)
 {
-	Objeto o;
-	float distancia;
-	distancia=(d.posicion-e.posicion).modulo();		//distancia de los dos objetos
-	if (distancia<=0.0f)
-	{
-		e.vida-=d.daño;
-	}
-
+	//Falta por programar, me faltan los apuntes de ayer
+	//sin embargo solo falta programar el hecho de hacer daño en un área
 }

@@ -14,8 +14,9 @@ public:
 	vector operator - (vector &);
 	vector operator + (vector &);
 	vector operator * (float);
+	vector operator / (float);
 	float operator * (vector &);
-
+	vector unitario();
 	float vx, vy;
 };
 

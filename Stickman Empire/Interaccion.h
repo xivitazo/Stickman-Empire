@@ -12,7 +12,7 @@ public:
 	Interaccion(void);
 	virtual ~Interaccion(void);
 
-	static void ataque( Disparo &d, edificio &e);
+	static void ataque(vector posicion, unsigned int daño, unsigned int salpicadura); //Introduces a quien atacar y cuando daño haces
 	static void choque ( Objeto &o, Objeto &p);
 };
 

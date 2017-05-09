@@ -18,5 +18,5 @@ public:
 	void atacado (unsigned int daño);
 
 	friend class Interaccion;
-
+	friend class Disparo;
 };

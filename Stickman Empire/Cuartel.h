@@ -1,5 +1,6 @@
 #pragma once
 #include "edificio.h"
+#include "personaje.h"
 class Cuartel : public edificio
 {
 protected:
@@ -8,5 +9,5 @@ protected:
 public:
 	Cuartel(void);
 	virtual ~Cuartel(void);
+	void generarTropa (/*No sabemos que poner*/);
 };
-

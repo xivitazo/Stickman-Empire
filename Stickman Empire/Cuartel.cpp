@@ -12,8 +12,11 @@ Cuartel::~Cuartel(void)
 
 void Cuartel::generarTropa(void)
 {
-	if(limite_tropas)
-	{					
+	if(limite_tropas)		//quiero limitar la creación a un limite, y empezar a crear
+	{						//memoria dinamica para poder borrar y crear
+	
+
+	}
 		
 
 

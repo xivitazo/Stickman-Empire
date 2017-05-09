@@ -7,5 +7,6 @@ protected:
 public:
 	ayuntamiento(void);
 	~ayuntamiento(void);
+	void atacar (edificio &atacado);
 };
 

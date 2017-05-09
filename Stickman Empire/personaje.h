@@ -1,7 +1,6 @@
 #pragma once
 #include "ayuntamiento.h"
 
-//#include "arquero.h"
 class personaje : public ayuntamiento
 {
 public:

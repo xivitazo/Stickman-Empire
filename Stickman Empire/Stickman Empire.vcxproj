@@ -65,8 +65,10 @@
     <ClInclude Include="animaciones.h" />
     <ClInclude Include="ayuntamiento.h" />
     <ClInclude Include="Cuartel.h" />
+    <ClInclude Include="Disparo.h" />
     <ClInclude Include="edificio.h" />
     <ClInclude Include="Fabrica.h" />
+    <ClInclude Include="Interaccion.h" />
     <ClInclude Include="Mapa.h" />
     <ClInclude Include="mundo.h" />
     <ClInclude Include="Objeto.h" />
@@ -77,8 +79,10 @@
     <ClCompile Include="animaciones.cpp" />
     <ClCompile Include="ayuntamiento.cpp" />
     <ClCompile Include="Cuartel.cpp" />
+    <ClCompile Include="Disparo.cpp" />
     <ClCompile Include="edificio.cpp" />
     <ClCompile Include="Fabrica.cpp" />
+    <ClCompile Include="Interaccion.cpp" />
     <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />

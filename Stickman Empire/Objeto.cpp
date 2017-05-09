@@ -1,8 +1,12 @@
 #include "Objeto.h"
 
 
-Objeto::Objeto(void)
+Objeto::Objeto(float a,bool v)
 {
+	altura=a;
+	visible=v;
+	//no inicializo posicion y vector porque están ya a 0
+	//al crearse la clase vector con ellos.
 }
 
 

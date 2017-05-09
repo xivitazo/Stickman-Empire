@@ -1,6 +1,5 @@
 #pragma once
 #include <cstdio>
-#include <SDL/SDL2.h>
 
 class Mapa
 {

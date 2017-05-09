@@ -1,20 +1,14 @@
 #pragma once
-#include "vector.h"
-#include "stats.h"
+#include "ayuntamiento.h"
 
 //#include "arquero.h"
-class personaje : public stats
+class personaje : public ayuntamiento
 {
 public:
 	personaje(void);
 	virtual ~personaje(void);
-	void mueve(float tiempo);
-	void tecla();
-	void subirNivel();
-private:
-	vector posicion, velocidad, aceleracion;
-	bool estado;
-	//unsigned int vida;
-	static unsigned int numero_generado, numero_total;
+	void mueve();
+protected:
+	vector velocidad, velocidd_max;
+	vector aceleracion;
 };
-

@@ -63,24 +63,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="animaciones.h" />
-    <ClInclude Include="arquero.h" />
     <ClInclude Include="ayuntamiento.h" />
+    <ClInclude Include="Cuartel.h" />
     <ClInclude Include="edificio.h" />
+    <ClInclude Include="Fabrica.h" />
     <ClInclude Include="granja.h" />
     <ClInclude Include="mundo.h" />
+    <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />
-    <ClInclude Include="stats.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animaciones.cpp" />
-    <ClCompile Include="arquero.cpp" />
     <ClCompile Include="ayuntamiento.cpp" />
+    <ClCompile Include="Cuartel.cpp" />
     <ClCompile Include="edificio.cpp" />
+    <ClCompile Include="Fabrica.cpp" />
     <ClCompile Include="granja.cpp" />
     <ClCompile Include="mundo.cpp" />
+    <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="personaje.cpp" />
-    <ClCompile Include="stats.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

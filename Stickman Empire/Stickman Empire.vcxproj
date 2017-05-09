@@ -65,16 +65,10 @@
     <ClInclude Include="animaciones.h" />
     <ClInclude Include="arquero.h" />
     <ClInclude Include="ayuntamiento.h" />
-    <ClInclude Include="caballero.h" />
     <ClInclude Include="edificio.h" />
-    <ClInclude Include="gigante.h" />
     <ClInclude Include="granja.h" />
-    <ClInclude Include="guerrero.h" />
-    <ClInclude Include="mina_hierro.h" />
-    <ClInclude Include="mina_oro.h" />
     <ClInclude Include="mundo.h" />
     <ClInclude Include="personaje.h" />
-    <ClInclude Include="soldado.h" />
     <ClInclude Include="stats.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
@@ -82,16 +76,10 @@
     <ClCompile Include="animaciones.cpp" />
     <ClCompile Include="arquero.cpp" />
     <ClCompile Include="ayuntamiento.cpp" />
-    <ClCompile Include="caballero.cpp" />
     <ClCompile Include="edificio.cpp" />
-    <ClCompile Include="gigante.cpp" />
     <ClCompile Include="granja.cpp" />
-    <ClCompile Include="guerrero.cpp" />
-    <ClCompile Include="mina_hierro.cpp" />
-    <ClCompile Include="mina_oro.cpp" />
     <ClCompile Include="mundo.cpp" />
     <ClCompile Include="personaje.cpp" />
-    <ClCompile Include="soldado.cpp" />
     <ClCompile Include="stats.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>

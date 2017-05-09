@@ -67,6 +67,7 @@
     <ClInclude Include="Cuartel.h" />
     <ClInclude Include="edificio.h" />
     <ClInclude Include="Fabrica.h" />
+    <ClInclude Include="Mapa.h" />
     <ClInclude Include="mundo.h" />
     <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />
@@ -78,6 +79,7 @@
     <ClCompile Include="Cuartel.cpp" />
     <ClCompile Include="edificio.cpp" />
     <ClCompile Include="Fabrica.cpp" />
+    <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="personaje.cpp" />

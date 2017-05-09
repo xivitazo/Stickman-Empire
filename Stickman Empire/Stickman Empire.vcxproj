@@ -78,7 +78,6 @@
     <ClCompile Include="Cuartel.cpp" />
     <ClCompile Include="edificio.cpp" />
     <ClCompile Include="Fabrica.cpp" />
-    <ClCompile Include="granja.cpp" />
     <ClCompile Include="mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="personaje.cpp" />

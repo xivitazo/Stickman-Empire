@@ -1,14 +1,13 @@
 #include "Disparo.h"
 
 
-Disparo::Disparo(void)
+Disparo::Disparo(unsigned int d, float r)
 {
 	//dejo al constructor de oficio pero lo inicializo a 0 por si acaso.
 	//radio pequeño (copiado de Pang)
-	velocidad.x=0;
-	velocidad.y=0.0f;
-	radio=0.1f;
-	daño=0;
+	//velocidad y posicion están en principio a 0 ( por vector )
+	radio=r;
+	daño=d;
 }
 
 
@@ -22,3 +21,4 @@ void Disparo::Mueve(float t)
 	/*En principio no le meto aceleración
 	al disparo, por simplificar */
 }
+

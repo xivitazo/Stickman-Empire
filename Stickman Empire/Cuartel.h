@@ -10,4 +10,6 @@ public:
 	Cuartel(void);
 	virtual ~Cuartel(void);
 	void generarTropa (/*No sabemos que poner*/);
+
+	friend class Interaccion;
 };

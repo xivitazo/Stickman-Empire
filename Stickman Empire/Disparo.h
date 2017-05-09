@@ -7,12 +7,17 @@ protected:
 	unsigned int daño;
 	vector posicion;
 	vector velocidad;
-	//vector aceleracion;
+	//vector aceleracion; lo omitimos por ahora
 public:
-	Disparo(void);
+	//constructor con daño = d y radio = r;
+	Disparo(unsigned int d=0, float r=0);
 	virtual ~Disparo(void);
 
 	void Dibuja();
 	void Mueve(float t);
+
+	//amigo de la clase interacción para que interaccion
+	//pueda usar las cosas de disparo
+	friend class Interaccion;
 };
 

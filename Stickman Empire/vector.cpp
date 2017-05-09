@@ -7,7 +7,6 @@ vector::vector(float x, float y)
 	vy = y;
 }
 
-
 vector::~vector(void)
 {
 }
@@ -39,4 +38,14 @@ vector vector :: operator * (float n)
 	aux.vx =vx *n;
 	aux.vy =vy *n;
 	return aux;
+}
+
+float vector::modulo()
+{
+	return (float)sqrt(vx*vx+vy*vy);
+}
+
+float vector::argumento()
+{
+	return (float)atan2(vy,vx);
 }

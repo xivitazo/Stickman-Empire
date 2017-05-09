@@ -12,5 +12,7 @@ public:
 	Objeto(float a=0,bool v=0);
 	virtual ~Objeto(void);
 	void Dibuja();
+
+	friend class Interaccion;
 };
 

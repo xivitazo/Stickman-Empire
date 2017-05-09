@@ -6,5 +6,6 @@ public:
 	virtual ~animaciones(void);
 	void morir();
 	void daño();
+
 };
 

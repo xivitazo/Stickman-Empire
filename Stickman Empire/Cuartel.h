@@ -9,7 +9,7 @@ protected:
 public:
 	Cuartel(void);
 	virtual ~Cuartel(void);
-	void generarTropa (/*No sabemos que poner*/);
+	void generarTropa (void); //mirar el cpp
 
 	friend class Interaccion;
 };

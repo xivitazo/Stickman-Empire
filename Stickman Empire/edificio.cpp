@@ -1,8 +1,9 @@
 #include "edificio.h"
 
 
-edificio::edificio(void)
+edificio::edificio(unsigned int v)
 {
+	vida=v;
 }
 
 

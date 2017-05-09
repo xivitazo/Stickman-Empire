@@ -10,7 +10,7 @@ protected:
 	static unsigned int numero_generado, numero_total;
 
 public:
-	edificio(void);
+	edificio(unsigned int v=0);
 	virtual ~edificio(void);
 	void tecla();
 	void subirNivel();

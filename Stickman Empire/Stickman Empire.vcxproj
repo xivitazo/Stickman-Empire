@@ -67,7 +67,6 @@
     <ClInclude Include="Cuartel.h" />
     <ClInclude Include="edificio.h" />
     <ClInclude Include="Fabrica.h" />
-    <ClInclude Include="granja.h" />
     <ClInclude Include="mundo.h" />
     <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />

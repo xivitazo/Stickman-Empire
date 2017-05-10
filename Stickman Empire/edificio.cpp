@@ -10,3 +10,4 @@ edificio::edificio(unsigned int v)
 edificio::~edificio(void)
 {
 }
+

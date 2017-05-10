@@ -1,30 +1,27 @@
-﻿Compilación iniciada a las 09/05/2017 14:15:36.
+﻿Compilación iniciada a las 10/05/2017 12:06:42.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ayuntamiento.cpp Cuartel.cpp edificio.cpp Fabrica.cpp granja.cpp mundo.cpp Objeto.cpp personaje.cpp stats.cpp vector.cpp
-         personaje.cpp
-         Objeto.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mundo.cpp
          mundo.cpp
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\mundo.cpp(5): error C2600: 'mundo::mundo' : no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\mundo.cpp(10): error C2600: 'mundo::~mundo' : no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
-         granja.cpp
-     1>c1xx : fatal error C1083: No se puede abrir el archivo código fuente: 'granja.cpp': No such file or directory
-         Fabrica.cpp
-         edificio.cpp
-         Cuartel.cpp
-         Generando código...
-         Compilando...
-         ayuntamiento.cpp
-         Generando código...
-         Compilando...
-         stats.cpp
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\stats.cpp(6): error C2039: 'vida_max' : no es un miembro de 'stats'
-                 c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\stats.h(3) : vea la declaración de 'stats'
-         Generando código...
-         Omitiendo... (no se detectaron cambios relevantes)
-         vector.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.lib" /MACHINE:X86 Debug\animaciones.obj
+         Debug\ayuntamiento.obj
+         Debug\Color.obj
+         Debug\Cuartel.obj
+         Debug\Disparo.obj
+         Debug\edificio.obj
+         Debug\Fabrica.obj
+         Debug\Interaccion.obj
+         Debug\Jugador.obj
+         Debug\Mapa.obj
+         Debug\mundo.obj
+         Debug\Objeto.obj
+         Debug\personaje.obj
+         Debug\Recursos.obj
+         Debug\vector.obj
+     1>LINK : fatal error LNK1561: se debe definir el punto de entrada
      1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:01.01
+Tiempo transcurrido 00:00:01.12

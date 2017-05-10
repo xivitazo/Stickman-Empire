@@ -13,7 +13,7 @@ protected:
 public:
 	//constructor con daño = d y radio = r;
 	Disparo(vector posicion, edificio destino,unsigned int daño, unsigned int salpicadura );
-	//Introduces el daño, a quien disparar y la posicion del disparo
+	//Introduces la posicion del disparo, aquien disparar, el daño y la salpicadura
 	virtual ~Disparo(void);
 
 	void Dibuja();

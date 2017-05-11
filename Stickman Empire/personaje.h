@@ -20,7 +20,7 @@ public:
 						unsigned int velocidad);
 	bool mueve (vector destino, float t);
 	//devuele un 1 cuando llega a la posicion
-	bool ataque (edificio objetivo);
+	bool atacar (edificio objetivo);
 	//devuelve un 1 cuando ha atacado
 
 	friend class Interaccion;

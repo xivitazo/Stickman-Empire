@@ -33,7 +33,9 @@ bool personaje:: mueve(vector destino,float t)
 	}
 	return 0;
 }
-bool personaje ::ataque (edificio objetivo)
+bool personaje ::atacar (edificio objetivo)
 {
-
+	/*Hay que comprobar que el objetivo esta dentro del rango de disparo, 
+	si esta fuera hay que hacer que se mueva por medio de mueve hasta que ya le pega.
+	Despues generar un disparo con el objetivo como destino*/
 }

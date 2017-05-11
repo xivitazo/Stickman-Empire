@@ -60,6 +60,9 @@
     <ClInclude Include="Color.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="SDL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ayuntamiento.cpp">
@@ -110,5 +113,10 @@
     <ClCompile Include="JUEGO.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL.lib">
+      <Filter>Archivos de encabezado</Filter>
+    </Library>
   </ItemGroup>
 </Project>

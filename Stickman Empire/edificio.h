@@ -6,7 +6,7 @@ protected:
 	unsigned int vida;
 	//tener cuidado que static este funcionaria tanto para nuestro ayuntamiento
 	//como para el del rival en caso de que exista
-	static unsigned int numero_generado, numero_total;
+	static unsigned int numero_generado, numero_total, nivel;
 	//Hay que organizar una variable de coste de cada edificio y tal
 	//habia 
 

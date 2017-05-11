@@ -43,6 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -76,6 +77,7 @@
     <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />
     <ClInclude Include="Recursos.h" />
+    <ClInclude Include="SDL.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +97,9 @@
     <ClCompile Include="Recursos.cpp" />
     <ClCompile Include="JUEGO.cpp" />
     <ClCompile Include="vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

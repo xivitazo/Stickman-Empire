@@ -51,6 +51,7 @@ int Lista_de :: morir()
 		if (lista[n]->vida<=0)
 		{
 			delete lista[n];
+			numero--;
 			for (int i=n;i<numero; i++)
 			{
 				lista[i]=lista[i+1];

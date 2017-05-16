@@ -1,10 +1,16 @@
-﻿Compilación iniciada a las 16/05/2017 13:25:25.
+﻿Compilación iniciada a las 17/05/2017 0:17:35.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp Lista_de.cpp
+         Lista_de.cpp
+     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\lista_de.h(12): warning C4200: se ha utilizado una extensión no estándar : matriz de tamaño cero en struct/union
+                 No se puede generar el constructor de copias o el operador de asignación de copias cuando el tipo definido por el usuario contiene una matriz de tamaño cero
+         Generando código...
+         Compilando...
          Cuartel.cpp
      1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\lista_de.h(12): warning C4200: se ha utilizado una extensión no estándar : matriz de tamaño cero en struct/union
                  No se puede generar el constructor de copias o el operador de asignación de copias cuando el tipo definido por el usuario contiene una matriz de tamaño cero
+         Generando código...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.lib" /MACHINE:X86 Debug\animaciones.obj
          Debug\ayuntamiento.obj
@@ -29,4 +35,4 @@
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:02.03
+Tiempo transcurrido 00:00:04.75

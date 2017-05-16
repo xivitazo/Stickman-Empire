@@ -25,7 +25,6 @@ bool personaje:: mueve(vector destino,float t)
 {
 	vector v;
 	v=(destino-posicion).unitario()*(float)velocidad_max;
-//Hallas la direccion ue debe seguir el disparo de forma dinámica
 	posicion=posicion + v*t;
 	if (abs(destino.vx-posicion.vx)<=0.01&&abs(destino.vy-posicion.vy)<=0.01)
 	{

@@ -1,15 +1,15 @@
 #pragma once
 #include "personaje.h"
+#define MAX 100
 //En un principio no ponemos limite, 
 //si vemos que lo necesitamos lo hacemos
 class Lista_de
 {
 protected:
-	//int MAX;
 	int numero;
 	//No se si borrar el numero entonces 
 	//en la clase como tal de edificio
-	personaje modelo, *lista [];
+	personaje modelo, *lista [MAX];
 	//Cuando creemos un nuevo personaje todas las estadisticas 
 	//estaran en el modelo, de tal forma que no tendremos que pasar 
 	//informacion sobre que estadisticas tiene que tener nuestra creación
@@ -19,8 +19,6 @@ public:
 	Lista_de(int tipo);
 	~Lista_de(void);
 	bool agregar ();
-	//void mueve(float t);
-	//Puede que mueve() no sea necesario xq movemos cada personaje por separado
 	void dibuja();
 	//void rebote(Caja caja);
 	//void rebote(Pared pared);
@@ -36,4 +34,3 @@ public:
 	//Esfera * operator [] (int i);
 
 };
-

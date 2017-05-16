@@ -19,4 +19,5 @@ public:
 
 	friend class Interaccion;
 	friend class Disparo;
+	friend class Lista_de;
 };

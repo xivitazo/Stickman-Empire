@@ -72,6 +72,7 @@
     <ClInclude Include="Fabrica.h" />
     <ClInclude Include="Interaccion.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="Lista_de.h" />
     <ClInclude Include="Mapa.h" />
     <ClInclude Include="mundo.h" />
     <ClInclude Include="Objeto.h" />
@@ -90,6 +91,7 @@
     <ClCompile Include="Fabrica.cpp" />
     <ClCompile Include="Interaccion.cpp" />
     <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="Lista_de.cpp" />
     <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />

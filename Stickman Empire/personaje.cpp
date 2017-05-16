@@ -24,7 +24,7 @@ void personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int
 bool personaje:: mueve(vector destino,float t)
 {
 	vector v;
-	v=(destino-posicion).unitario()*velocidad_max;
+	v=(destino-posicion).unitario()*(float)velocidad_max;
 //Hallas la direccion ue debe seguir el disparo de forma dinámica
 	posicion=posicion + v*t;
 	if (abs(destino.vx-posicion.vx)<=0.01&&abs(destino.vy-posicion.vy)<=0.01)
@@ -38,4 +38,5 @@ bool personaje ::atacar (edificio objetivo)
 	/*Hay que comprobar que el objetivo esta dentro del rango de disparo, 
 	si esta fuera hay que hacer que se mueva por medio de mueve hasta que ya le pega.
 	Despues generar un disparo con el objetivo como destino*/
+	return 0;
 }

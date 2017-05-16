@@ -11,8 +11,7 @@ class Interaccion
 public:
 	Interaccion(void);
 	virtual ~Interaccion(void);
-
-	static void ataque(vector posicion, unsigned int daño, unsigned int salpicadura); //Introduces a quien atacar y cuando daño haces
+	static void ataque(vector posicion, unsigned int daño, unsigned int salpicadura); //Introduces donde atacar y cuando daño haces
 	static void choque ( Objeto &o, Objeto &p);
 	static float distancia (Objeto &a, Objeto &b);
 };

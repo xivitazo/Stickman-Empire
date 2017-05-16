@@ -24,4 +24,5 @@ public:
 	//devuelve un 1 cuando ha atacado
 
 	friend class Interaccion;
+	friend class Lista_de;
 };

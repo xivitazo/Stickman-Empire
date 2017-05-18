@@ -1,0 +1,10 @@
+﻿Compilación iniciada a las 18/05/2017 10:03:35.
+     1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\SDLmain\SDLmain.vcxproj" en el nodo 2 (Build destinos).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\SDLmain\Win32\Debug\SDL2main.lib" /NOLOGO Win32\Debug\SDL_windows_main.obj
+         SDLmain.vcxproj -> C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\SDLmain\Win32\Debug\SDL2main.lib
+     1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\SDLmain\SDLmain.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.89

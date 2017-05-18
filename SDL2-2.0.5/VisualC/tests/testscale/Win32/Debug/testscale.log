@@ -1,0 +1,13 @@
+﻿Compilación iniciada a las 17/05/2017 14:45:37.
+     1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\tests\testscale\testscale.vcxproj" en el nodo 4 (Build destinos).
+     1>CustomBuild:
+         Copying icon.bmp
+         El sistema no puede encontrar el archivo especificado.
+         Copying sample.bmp
+         El sistema no puede encontrar el archivo especificado.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(172,5): error MSB6006: "cmd.exe" salió con el código 1.
+     1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL2-2.0.5\VisualC\tests\testscale\testscale.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.14

@@ -1,7 +1,7 @@
 #include "Cuartel.h"
 
 
-Cuartel::Cuartel(void):solados(0)
+Cuartel::Cuartel(void)
 {
 }
 
@@ -10,12 +10,8 @@ Cuartel::~Cuartel(void)
 {
 }
 
-void Cuartel::generarTropa(void)
+void Cuartel :: subirNivel(unsigned int tipo=0)
 {
-	if(limite_tropas<numero_tropas)		
-	{
-		solados.agregar();
-		//quiero limitar la creación a un limite, y empezar a crear
-		//memoria dinamica para poder borrar y crear
-	}
+	limite+=20;
 }
+

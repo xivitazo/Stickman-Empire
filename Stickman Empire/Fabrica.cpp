@@ -1,7 +1,7 @@
 #include "Fabrica.h"
 
 
-Fabrica::Fabrica(void)
+Fabrica::Fabrica(int tipo)
 {
 }
 
@@ -9,10 +9,10 @@ Fabrica::Fabrica(void)
 Fabrica::~Fabrica(void)
 {
 }
-void Fabrica :: subirNivel()
+void Fabrica :: subirNivel (unsigned int tipo)
 {
-	vida = vida*1.75;
-	produccion.set(produccion.getComida()+30,produccion.getHierro()+20,produccion.getOro()+20);
+	vida = vida*1.75f;
+	produccion.set(produccion.getComida()*1.1f,produccion.getHierro()*1.1f,produccion.getOro()*1.1f);
 }
 
 

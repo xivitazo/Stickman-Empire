@@ -5,12 +5,16 @@ class Fabrica : public edificio
 {
 protected:
 	Recursos produccion;
-	unsigned int p_subirNivel; //Precio de oro que cuesta subir de nivel;
+	unsigned int p_subirNivel; 
+	//Precio de oro que cuesta subir de nivel;
 
 public:
-	Fabrica(void);
+	Fabrica(int tipo);
 	virtual ~Fabrica(void);
-	void subirNivel(); //falta implementar el rollo de cobrar el subir de nivel
+	void subirNivel(int tipo=0);
+	//falta implementar el rollo de cobrar el subir de nivel
+	void dibuja();
+	void subirNivel(unsigned int tipo);
 
 	friend class Interaccion;
 };

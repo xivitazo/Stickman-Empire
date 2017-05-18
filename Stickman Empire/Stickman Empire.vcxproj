@@ -78,7 +78,6 @@
     <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />
     <ClInclude Include="Recursos.h" />
-    <ClInclude Include="SDL.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +98,6 @@
     <ClCompile Include="Recursos.cpp" />
     <ClCompile Include="JUEGO.cpp" />
     <ClCompile Include="vector.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="SDL.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

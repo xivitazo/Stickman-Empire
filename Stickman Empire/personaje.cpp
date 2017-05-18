@@ -5,7 +5,7 @@ personaje::personaje(int tipo)
 {
 	if (tipo==0)
 	{
-		setStats(1,1,1,1);
+		setStats(1,1,1);
 	}
 }
 
@@ -14,11 +14,10 @@ personaje::~personaje(void)
 {
 }
 
-void personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int salpicadura,unsigned int velocidad)
+void personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int velocidad)
 {
-	this -> vida = vida;
+	this -> vida_max = vida;
 	this -> ataque = ataque;
-	this -> salpicadura = salpicadura;
 	this -> velocidad_max = velocidad;
 }
 bool personaje:: mueve(vector destino,float t)
@@ -38,4 +37,12 @@ bool personaje ::atacar (edificio objetivo)
 	si esta fuera hay que hacer que se mueva por medio de mueve hasta que ya le pega.
 	Despues generar un disparo con el objetivo como destino*/
 	return 0;
+}
+void personaje :: subirNivel (unsigned int tipo)
+{
+	if (tipo ==1)
+	{
+		setStats (vida_max*1.1f,ataque*1.1f,velocidad_max*1.1f);
+		vida=vida_max;
+	}
 }

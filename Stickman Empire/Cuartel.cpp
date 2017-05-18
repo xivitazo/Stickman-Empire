@@ -10,7 +10,7 @@ Cuartel::~Cuartel(void)
 {
 }
 
-void Cuartel :: subirNivel(unsigned int tipo=0)
+void Cuartel :: subirNivel(unsigned int tipo)
 {
 	limite+=20;
 }

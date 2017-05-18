@@ -1,15 +1,13 @@
-﻿Compilación iniciada a las 19/05/2017 0:44:13.
+﻿Compilación iniciada a las 19/05/2017 1:09:18.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Fabrica.cpp ayuntamiento.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp ayuntamiento.cpp
          ayuntamiento.cpp
      1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\personaje.h(5): error C2504: 'ayuntamiento' : clase base sin definir
-         Fabrica.cpp
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\fabrica.cpp(14): warning C4244: '=' : conversión de 'float' a 'unsigned int'; posible pérdida de datos
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\fabrica.cpp(15): warning C4244: 'argumento' : conversión de 'float' a 'unsigned int'; posible pérdida de datos
+         Cuartel.cpp
          Generando código...
      1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.39
+Tiempo transcurrido 00:00:00.24

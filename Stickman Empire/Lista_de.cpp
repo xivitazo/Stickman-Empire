@@ -20,33 +20,6 @@ bool Lista_de:: agregar (unsigned int tipo,unsigned int especifico, unsigned int
 {
 	if(numero<MAX)
 	{
-		for (int n=0;n<numero;n++)
-		{
-			if (lista[n]==0)
-			{
-				if (tipo==1 && cuarteles<=max_cuarteles)
-				{
-					lista[numero]=new Cuartel ;
-					cuarteles++;
-					numero++;
-				}
-				else if (tipo==2 && fabricas<=max_fabricas)
-				{
-					lista[numero]=new Fabrica (especifico);
-					fabricas++;
-					numero++;
-				}
-				else if (tipo ==3 && personajes<=max_personajes && cuarteles>=1)
-				{
-					lista[numero]=new personaje (especifico);
-					personajes++;
-					numero++;
-				}
-				else return false;
-
-			}
-		}
-
 		if (tipo==1 && cuarteles<=max_cuarteles)
 		{
 			lista[numero]=new Cuartel ;
@@ -107,7 +80,6 @@ int Lista_de :: morir()
 			{
 				lista[i]=lista[i+1];
 			}
-			lista[n]=0;
 			muertos++;
 		}
 	}
@@ -115,7 +87,7 @@ int Lista_de :: morir()
 }
 void Lista_de :: subirNivel(unsigned int tipo, unsigned int especifico)
 {
-	int contador;
+	int contador=0;
 	for (int n=0;n<numero;n++)
 	{
 		if (lista[n]->tipo==tipo)

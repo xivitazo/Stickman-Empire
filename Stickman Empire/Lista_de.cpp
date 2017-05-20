@@ -32,7 +32,7 @@ bool Lista_de:: agregar (unsigned int tipo,unsigned int especifico, unsigned int
 			fabricas++;
 			numero++;
 		}
-		else if (tipo ==3 && personajes<=max_personajes && cuarteles>=1)
+		else if (tipo ==3 && personajes<=max_personajes && cuarteles>=1 && lista[cuartel]->poderGenerar())
 		{
 			lista[numero]=new personaje (especifico);
 			personajes++;

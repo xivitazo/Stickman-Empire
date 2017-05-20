@@ -63,7 +63,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="animaciones.h" />
     <ClInclude Include="ayuntamiento.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="Cuartel.h" />
@@ -74,14 +73,13 @@
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="Lista_de.h" />
     <ClInclude Include="Mapa.h" />
-    <ClInclude Include="mundo.h" />
+    <ClInclude Include="Mundo.h" />
     <ClInclude Include="Objeto.h" />
     <ClInclude Include="personaje.h" />
     <ClInclude Include="Recursos.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animaciones.cpp" />
     <ClCompile Include="ayuntamiento.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Cuartel.cpp" />
@@ -89,14 +87,12 @@
     <ClCompile Include="edificio.cpp" />
     <ClCompile Include="Fabrica.cpp" />
     <ClCompile Include="Interaccion.cpp" />
-    <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="Lista_de.cpp" />
     <ClCompile Include="Mapa.cpp" />
-    <ClCompile Include="mundo.cpp" />
+    <ClCompile Include="Mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="personaje.cpp" />
     <ClCompile Include="Recursos.cpp" />
-    <ClCompile Include="JUEGO.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

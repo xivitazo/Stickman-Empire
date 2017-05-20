@@ -1,11 +1,11 @@
-#include "mundo.h"
+#include "Mundo.h"
 
 
-mundo::mundo(void)
+Mundo::Mundo(void)
 {
 }
 
 
-mundo::~mundo(void)
+Mundo::~Mundo(void)
 {
 }

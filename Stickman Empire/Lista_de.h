@@ -4,10 +4,9 @@
 #include "Fabrica.h"
 #include "Recursos.h"
 #define MAX 300
+//Tamaño del vector de cosas
 class Lista_de
 {
-protected:
-	//Tamaño del vector de cosas
 	int numero;
 	//Estableces lo creado para tener un control
 	unsigned int cuarteles, fabricas, personajes;
@@ -24,17 +23,20 @@ public:
 	//Los metodos en comentario son xq creo que no son necesarios
 	Lista_de(void);
 	~Lista_de(void);
-	bool agregar (unsigned int tipo,unsigned int especifico=0, unsigned int cuartel=0);
+	bool agregar (unsigned int tipo,unsigned int especifico=0, unsigned int cuartel=0);	
 	/*
 		tipo es lo que quieres añadir:
 			1-Cuartel
 			2-Fábrica
 			3-Personaje
 		especifico de lo que haces
-		Si es personaje:
-			1-Prueba(todo1)
-		Si es Fábrica
-			1-Prueba(todo1)
+			Si es personaje:
+				1-Prueba(todo1)
+				2-...
+			Si es Fábrica
+				1-Prueba(todo1)
+				2-...
+		cuartel es la variable nombre del cuartel que quiere generar una tropa
 	*/
 	void dibuja();
 	//void rebote(Caja caja);

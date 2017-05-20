@@ -15,11 +15,3 @@ void edificio :: setTipo (unsigned int tipo)
 {
 	this->tipo=tipo;
 }
-bool edificio :: poderGenerar (void)
-{
-	if (numero_generado<=limite)
-	{
-		return true;
-	}
-	return false;
-}

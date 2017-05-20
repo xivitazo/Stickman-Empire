@@ -14,4 +14,15 @@ void Cuartel :: subirNivel(unsigned int tipo)
 {
 	limite+=20;
 }
-
+bool Cuartel :: poderGenerar()
+{
+	return numero_tropas<= limite_tropas;
+}
+void Cuartel :: timer (float t)
+{
+	if (tiempo>=60)
+	{
+		numero_tropas=0;
+	}
+	else tiempo++;
+}

@@ -1,14 +1,13 @@
 #pragma once
-#include "personaje.h"//Duda sobre como implementar librerias tipo hijo
-//Con implementar personaje esta ya añade todas las padres
-//#include "edificio.h"
-class mundo
+#include "Lista_de.h"
+class Mundo
 {
+	Lista_de poblado;
 public:
-	mundo();
-	virtual ~mundo();
-	void Dibuja();
-	void Tecla();
-	void Tiempo();
+	void dibuja (void);
+	void timer(float t);
+
+	Mundo(void);
+	~Mundo(void);
 };
 

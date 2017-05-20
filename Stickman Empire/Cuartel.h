@@ -6,12 +6,15 @@ class Cuartel : public edificio
 {
 protected:
 	unsigned int limite_tropas, numero_tropas;
+	unsigned int tiempo;
 
 public:
 	Cuartel(void);
 	virtual ~Cuartel(void);
-	bool newTropa(unsigned int tipo);
-	void timer (int t);
+	bool newTropa();
+	//Devuelve un TRUE si se puede generar una nueva tropa 
+	//Un FALSE si ya ha generado el maximo por unidad de tiempo
+	void timer (float t);
 	void dibuja();
 	void subirNivel(unsigned int tipo=0);
 

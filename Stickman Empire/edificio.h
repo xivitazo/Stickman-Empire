@@ -11,7 +11,7 @@ protected:
 	//Limite de generacion por unidad de tiempo (Cuarteles y fábricas)
 	unsigned int nombre;
 	//Este es el "nombre" de cada clase
-	//
+	//Será la posicion del vector creado en Lista_de.h
 
 
 	//Hay que organizar una variable de coste de cada edificio y tal
@@ -27,9 +27,9 @@ public:
 	void timer (float tiempo);
 	void dibuja();
 	void setTipo(unsigned int tipo);
-	/*virtual*/bool poderGenerar (void);
-	//Te dice si puedes generar independientemente del ripo de edificio que sea
-	//En un personaje no se usará
+	virtual bool poderGenerar (void){return 0;};
+	//Te dice si puedes generar tropas
+	//En algo fuera del cuartel no se usará
 	virtual void subirNivel(unsigned int tipo=0){};
 	//Solo se usará el tipo en la clase personaje para definir que tropa sube de nivel
 

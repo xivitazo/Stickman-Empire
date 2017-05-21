@@ -1,13 +1,13 @@
-#pragma once
-#include "Lista_de.h"
 class Mundo
 {
-	Lista_de poblado;
-public:
-	void dibuja (void);
-	void timer(float t);
+public: 
+	void Tecla(unsigned char key);
+	void Inicializa();
+	void RotarOjo();
+	void Mueve();
+	void Dibuja();
 
-	Mundo(void);
-	~Mundo(void);
+	float x_ojo;
+	float y_ojo;
+	float z_ojo;
 };
-

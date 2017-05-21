@@ -13,3 +13,12 @@ Objeto::Objeto(float a,bool v)
 Objeto::~Objeto(void)
 {
 }
+
+vector Objeto :: getPoscion()
+{
+	return posicion;
+}
+void Objeto :: dibuja(void)
+{
+	
+}

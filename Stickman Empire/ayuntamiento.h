@@ -9,7 +9,9 @@ protected:
 public:
 	ayuntamiento(void);
 	~ayuntamiento(void);
-	void atacar (edificio &atacado);
+	virtual bool atacar (edificio &objetivo);
+	//Devuelve un 1 cuando crea un disparo hacia el objetivo
+	void timer (float tiempo);
 	void dibuja();
 
 

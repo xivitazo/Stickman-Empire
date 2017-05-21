@@ -14,7 +14,7 @@ void Cuartel :: subirNivel(unsigned int tipo)
 {
 	limite+=20;
 }
-bool Cuartel :: poderGenerar(void)
+bool Cuartel :: poderGenerar()
 {
 	return numero_tropas<= limite_tropas;
 }

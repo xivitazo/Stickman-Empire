@@ -14,8 +14,7 @@ public:
 	bool newTropa();
 	//Devuelve un TRUE si se puede generar una nueva tropa 
 	//Un FALSE si ya ha generado el maximo por unidad de tiempo
-	void timer (float tiempo);
-	bool poderGenerar (void);
+	void timer (float t);
 	void dibuja();
 	void subirNivel(unsigned int tipo=0);
 

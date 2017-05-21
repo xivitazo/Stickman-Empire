@@ -1,7 +1,5 @@
 #pragma once
 #include "vector.h"
-#include "glut.h"
-
 class Objeto
 {
 protected:
@@ -14,7 +12,6 @@ public:
 	Objeto(float a=0,bool v=0);
 	virtual ~Objeto(void);
 	virtual void dibuja();
-	vector getPoscion();
 
 	friend class Interaccion;
 };

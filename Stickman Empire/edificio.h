@@ -24,7 +24,7 @@ public:
 	edificio(unsigned int v=0);
 	virtual ~edificio(void);
 	void tecla();
-	virtual void timer (float tiempo);
+	void timer (float tiempo);
 	void dibuja();
 	void setTipo(unsigned int tipo);
 	virtual bool poderGenerar (void){return 0;};

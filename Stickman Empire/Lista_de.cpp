@@ -51,6 +51,13 @@ void Lista_de :: dibuja()
 		lista[n]->dibuja();
 	}
 }
+/*void Lista_de :: mueve(float t)
+{
+	for (int n=0; n<numero; n++)
+	{
+		lista[n]->mueve(t);
+	}
+}*/
 
 /*void Lista_de :: choque()
 {
@@ -92,12 +99,5 @@ void Lista_de :: subirNivel(unsigned int tipo, unsigned int especifico)
 				contador++;
 			}
 		}
-	}
-}
-void Lista_de :: timer (float tiempo)
-{
-	for(int n=0;n<numero;n++)
-	{
-		lista[n]->timer(tiempo);
 	}
 }

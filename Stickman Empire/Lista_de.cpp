@@ -49,6 +49,7 @@ void Lista_de :: dibuja()
 	for(int n=0; n<numero;n++)
 	{
 		lista[n]->dibuja();
+		cosas[n]->dibuja();
 	}
 }
 
@@ -99,5 +100,6 @@ void Lista_de :: timer (float tiempo)
 	for(int n=0;n<numero;n++)
 	{
 		lista[n]->timer(tiempo);
+		cosas[n]->timer(tiempo);
 	}
 }

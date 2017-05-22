@@ -37,12 +37,9 @@ bool personaje ::atacar (edificio &objetivo)
 	{
 		mueve(posicion+((posicion-objetivo.getPoscion()).unitario()*((posicion-objetivo.getPoscion()).modulo()-rango)));
 		return 0;
-	}
-	else
-	{
-		new Disparo (posicion,objetivo,ataque,salpicadura);
-		return 1;
-	}
+	}	
+	new Disparo (posicion,objetivo,ataque,salpicadura);
+	return 1;
 }
 void personaje :: subirNivel (unsigned int tipo)
 {

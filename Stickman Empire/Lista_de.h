@@ -3,6 +3,7 @@
 #include "Cuartel.h"
 #include "Fabrica.h"
 #include "Recursos.h"
+#include "Objeto.h"
 #define MAX 300
 //Tamaño del vector de cosas
 class Lista_de
@@ -17,6 +18,9 @@ class Lista_de
 	//Numero de "cosas" generadas
 	//Distinto del numero de tropas y demás
 	edificio  *lista [MAX];
+	//Vector que contiene edificios y personajes
+	Objeto *cosas[MAX];
+	//Vector que contiene objetos y disparos
 	
 
 public:

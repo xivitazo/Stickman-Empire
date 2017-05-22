@@ -13,7 +13,8 @@ public:
 	//constructor con altura y visibilidad por defecto a 0
 	Objeto(float a=0,bool v=0);
 	virtual ~Objeto(void);
-	virtual void dibuja();
+	virtual void dibuja(void);
+	virtual void timer (float tiempo);
 	vector getPoscion();
 
 	friend class Interaccion;

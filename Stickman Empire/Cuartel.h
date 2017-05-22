@@ -16,7 +16,7 @@ public:
 	//Un FALSE si ya ha generado el maximo por unidad de tiempo
 	void timer (float tiempo);
 	bool poderGenerar (void);
-	void dibuja();
+	void dibuja(void);
 	void subirNivel(unsigned int tipo=0);
 
 	friend class Interaccion;

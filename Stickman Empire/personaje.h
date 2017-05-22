@@ -19,7 +19,7 @@ public:
 	bool atacar (edificio &objetivo);
 	//Ataca, o se mueve hasta donde pueda atacar para golpear al objetivo
 	//Devuelve un 1 cuando crea un disparo hacia el objetivo
-	void dibuja();
+	void dibuja(void);
 	void timer (float tiempo);
 	void subirNivel(unsigned int tipo);
 

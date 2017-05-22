@@ -1,11 +1,51 @@
-﻿Compilación iniciada a las 22/05/2017 1:24:04.
+﻿Compilación iniciada a las 22/05/2017 14:45:41.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ilib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ayuntamiento.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ilib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp Disparo.cpp Fabrica.cpp Interaccion.cpp Lista_de.cpp Mundo.cpp Objeto.cpp ayuntamiento.cpp edificio.cpp personaje.cpp
+         Cuartel.cpp
+         Generando código...
+         Compilando...
+         personaje.cpp
+         edificio.cpp
          ayuntamiento.cpp
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\personaje.h(5): error C2504: 'ayuntamiento' : clase base sin definir
+         Lista_de.cpp
+         Interaccion.cpp
+         Fabrica.cpp
+         Disparo.cpp
+         Generando código...
+         Omitiendo... (no se detectaron cambios relevantes)
+         Mundo.cpp
+         Objeto.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.lib" /MACHINE:X86 Debug\ayuntamiento.obj
+         Debug\Color.obj
+         Debug\Cuartel.obj
+         Debug\Disparo.obj
+         Debug\edificio.obj
+         Debug\Fabrica.obj
+         Debug\Interaccion.obj
+         Debug\Lista_de.obj
+         Debug\Mapa.obj
+         Debug\Mundo.obj
+         Debug\Objeto.obj
+         Debug\personaje.obj
+         "Debug\Qb-World.obj"
+         Debug\Recursos.obj
+         Debug\vector.obj
+         lib\glut32.lib
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
+     1>edificio.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
+     1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall ayuntamiento::dibuja(void)" (?dibuja@ayuntamiento@@UAEXXZ) sin resolver
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall ayuntamiento::subirNivel(unsigned int)" (?subirNivel@ayuntamiento@@UAEXI@Z) sin resolver
+     1>Cuartel.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Cuartel::dibuja(void)" (?dibuja@Cuartel@@UAEXXZ) sin resolver
+     1>Fabrica.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Fabrica::dibuja(void)" (?dibuja@Fabrica@@UAEXXZ) sin resolver
+     1>Lista_de.obj : error LNK2019: símbolo externo "public: void __thiscall Objeto::timer(float)" (?timer@Objeto@@QAEXM@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista_de::timer(float)" (?timer@Lista_de@@QAEXM@Z)
+     1>Lista_de.obj : error LNK2019: símbolo externo "public: void __thiscall edificio::timer(float)" (?timer@edificio@@QAEXM@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista_de::timer(float)" (?timer@Lista_de@@QAEXM@Z)
+     1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall personaje::dibuja(void)" (?dibuja@personaje@@UAEXXZ) sin resolver
+     1>C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe : fatal error LNK1120: 8 externos sin resolver
      1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.23
+Tiempo transcurrido 00:00:01.28

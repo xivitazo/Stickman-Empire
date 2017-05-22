@@ -1,6 +1,6 @@
 #pragma once
 #include "edificio.h"
-#include "Lista_de.h"
+
 class ayuntamiento : public edificio
 {
 protected:
@@ -12,7 +12,8 @@ public:
 	virtual bool atacar (edificio &objetivo);
 	//Devuelve un 1 cuando crea un disparo hacia el objetivo
 	void timer (float tiempo);
-	void dibuja();
+	void dibuja(void);
+	void subirNivel(unsigned int tipo);
 
 
 	friend class Interaccion;

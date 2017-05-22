@@ -1,14 +1,15 @@
 #pragma once
 #include "vector.h"
 #include "edificio.h"
-class Disparo
+#include "Objeto.h"
+class Disparo : public Objeto
 {
 protected:
 	float radio;
 	unsigned int daño;
-	vector  posicion;
 	edificio destino;
-	int velocidad, salpicadura;
+	vector velocidad;
+	int velocidad_max, salpicadura;
 	//vector aceleracion; lo omitimos por ahora
 public:
 	//constructor con daño = d y radio = r;
@@ -16,8 +17,9 @@ public:
 	//Introduces la posicion del disparo, aquien disparar, el daño y la salpicadura
 	virtual ~Disparo(void);
 
-	void Dibuja();
-	bool Mueve(float t); //devuelve un 1 en el momento que llega al destino
+	void dibuja(void);
+	bool Mueve(void); //devuelve un 1 en el momento que llega al destino
+	void timer (float tiempo);
 
 	//amigo de la clase interacción para que interaccion
 	//pueda usar las cosas de disparo

@@ -93,8 +93,12 @@
     <ClCompile Include="Mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="personaje.cpp" />
+    <ClCompile Include="Qb-World.cpp" />
     <ClCompile Include="Recursos.cpp" />
     <ClCompile Include="vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\glut32.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

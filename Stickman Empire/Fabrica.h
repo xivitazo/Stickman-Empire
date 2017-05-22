@@ -13,7 +13,7 @@ public:
 	virtual ~Fabrica(void);
 	void subirNivel(int tipo=0);
 	//falta implementar el rollo de cobrar el subir de nivel
-	void dibuja();
+	void dibuja(void);
 	void timer (float tiempo);
 	void subirNivel(unsigned int tipo);
 

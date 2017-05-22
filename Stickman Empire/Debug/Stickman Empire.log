@@ -1,15 +1,11 @@
-﻿Compilación iniciada a las 20/05/2017 14:12:24.
+﻿Compilación iniciada a las 22/05/2017 1:24:04.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp ayuntamiento.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ilib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ayuntamiento.cpp
          ayuntamiento.cpp
      1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\personaje.h(5): error C2504: 'ayuntamiento' : clase base sin definir
-         Cuartel.cpp
-     1>c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\cuartel.cpp(18): error C2509: 'poderGenerar' : función miembro no declarada en 'Cuartel'
-                 c:\users\javi\documents\uni\info industr\stickman-empire\stickman empire\cuartel.h(5) : vea la declaración de 'Cuartel'
-         Generando código...
      1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.37
+Tiempo transcurrido 00:00:00.23

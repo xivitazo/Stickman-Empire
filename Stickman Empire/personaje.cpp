@@ -1,4 +1,5 @@
 #include "personaje.h"
+#include "Disparo.h"
 
 
 personaje::personaje(int tipo)
@@ -20,23 +21,28 @@ void personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int
 	this -> ataque = ataque;
 	this -> velocidad_max = velocidad;
 }
-bool personaje:: mueve(vector destino,float t)
+bool personaje:: mueve(vector destino)
 {
-	vector v;
-	v=(destino-posicion).unitario()*(float)velocidad_max;
-	posicion=posicion + v*t;
 	if (abs(destino.vx-posicion.vx)<=0.01&&abs(destino.vy-posicion.vy)<=0.01)
 	{
+		velocidad=0;
 		return 1;
 	}
+	velocidad=(destino-posicion).unitario()*(float)velocidad_max;
 	return 0;
 }
-bool personaje ::atacar (edificio objetivo)
+bool personaje ::atacar (edificio &objetivo)
 {
-	/*Hay que comprobar que el objetivo esta dentro del rango de disparo, 
-	si esta fuera hay que hacer que se mueva por medio de mueve hasta que ya le pega.
-	Despues generar un disparo con el objetivo como destino*/
-	return 0;
+	if ((posicion-objetivo.getPoscion()).modulo()> rango)
+	{
+		mueve(posicion+((posicion-objetivo.getPoscion()).unitario()*((posicion-objetivo.getPoscion()).modulo()-rango)));
+		return 0;
+	}
+	else
+	{
+		new Disparo (posicion,objetivo,ataque,salpicadura);
+		return 1;
+	}
 }
 void personaje :: subirNivel (unsigned int tipo)
 {

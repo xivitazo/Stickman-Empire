@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>lib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -71,6 +71,7 @@
     <ClInclude Include="Fabrica.h" />
     <ClInclude Include="Interaccion.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="lib\glut.h" />
     <ClInclude Include="Lista_de.h" />
     <ClInclude Include="Mapa.h" />
     <ClInclude Include="Mundo.h" />

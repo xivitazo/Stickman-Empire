@@ -47,6 +47,6 @@ public:
 	//los muertos se iguala la direccion a 0 para poder corroborar que no se ha borrado
 	int GetNumero(){return numero;}
 	void subirNivel (unsigned int tipo, unsigned int especifico=0);
-	void timer (float t);
+	void timer (float tiempo);
 
 };

@@ -1,7 +1,7 @@
 //#include "Mundo.h"
 #include "glut.h"
 
-//Mundo mundo;
+Mundo mundo;
 
 //los callback, funciones que seran llamadas automaticamente por la glut
 //cuando sucedan eventos
@@ -49,7 +49,7 @@ void OnDraw(void)
 	glMatrixMode(GL_MODELVIEW);	
 	glLoadIdentity();
 	
-	//mundo.Dibuja();
+	mundo.Dibuja();
 
 	//no borrar esta linea ni poner nada despues
 	glutSwapBuffers();
@@ -65,7 +65,7 @@ void OnKeyboardDown(unsigned char key, int x_t, int y_t)
 void OnTimer(int value)
 {
 //poner aqui el código de animacion
-	//mundo.Mueve();
+	mundo.Mueve();
 
 	//no borrar estas lineas
 	glutTimerFunc(25,OnTimer,0);

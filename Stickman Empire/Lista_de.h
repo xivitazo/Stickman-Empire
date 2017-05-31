@@ -4,11 +4,13 @@
 #include "Fabrica.h"
 #include "Recursos.h"
 #include "Objeto.h"
+#include "Color.h"
 #define MAX 300
 //Tamaño del vector de cosas
 class Lista_de
 {
 	int numero;
+	Color equipo;
 	//Estableces lo creado para tener un control
 	unsigned int cuarteles, fabricas, personajes;
 	//Estableces limites para crear
@@ -19,13 +21,12 @@ class Lista_de
 	//Distinto del numero de tropas y demás
 	edificio  *lista [MAX];
 	//Vector que contiene edificios y personajes
-	Objeto *cosas[MAX];
-	//Vector que contiene objetos y disparos
+	Objeto *disparos[MAX];
+	//Vector que contiene disparos del equipo
 	
 
 public:
-	//Los metodos en comentario son xq creo que no son necesarios
-	Lista_de(void);
+	Lista_de(unsigned char red, unsigned char green, unsigned char blue);
 	~Lista_de(void);
 	bool agregar (unsigned int tipo,unsigned int especifico=0, unsigned int cuartel=0);	
 	/*

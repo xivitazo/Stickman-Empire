@@ -3,7 +3,7 @@ class Color
 {
 	unsigned int red, green, blue;
 public:
-	Color(void);
+	Color(unsigned int red, unsigned int green, unsigned int blue);
 	virtual ~Color(void);
 	void set(unsigned int red, unsigned int green, unsigned int blue);
 	unsigned int getRed ();

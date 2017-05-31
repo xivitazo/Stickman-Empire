@@ -1,7 +1,7 @@
 #include "Lista_de.h"
 
 
-Lista_de::Lista_de()
+Lista_de::Lista_de(unsigned char red, unsigned char green, unsigned char blue):equipo(red, green, blue)
 {
 	numero=0;
 	cuarteles=0;
@@ -15,6 +15,7 @@ Lista_de::Lista_de()
 
 Lista_de::~Lista_de(void)
 {
+
 }
 bool Lista_de:: agregar (unsigned int tipo,unsigned int especifico, unsigned int cuartel)
 {

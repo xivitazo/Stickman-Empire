@@ -1,6 +1,10 @@
 #include "Mundo.h"
 #include "glut.h"
 #include <math.h>
+#include "Lista_de.h"
+
+Mundo:: Mundo():jugador1(255,0,0),jugador2(0,255,0){}
+
 
 void Mundo::RotarOjo()
 {

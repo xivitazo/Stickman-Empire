@@ -1,9 +1,20 @@
 #include "Color.h"
 
 
-Color::Color(void)
+Color::Color(unsigned int red=255, unsigned int green=255, unsigned int blue=255)
 {
-	red=green=blue=255;
+	if (red>255)
+		this->red=255;
+	else
+		this ->red=red;
+	if (green>255)
+		this->green=255;
+	else
+		this ->green=green;
+	if (blue>255)
+		this->blue=255;
+	else
+		this ->blue=blue;
 }
 
 

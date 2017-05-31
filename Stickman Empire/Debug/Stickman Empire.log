@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 22/05/2017 14:45:41.
+﻿Compilación iniciada a las 26/05/2017 15:39:52.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ilib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cuartel.cpp Disparo.cpp Fabrica.cpp Interaccion.cpp Lista_de.cpp Mundo.cpp Objeto.cpp ayuntamiento.cpp edificio.cpp personaje.cpp
@@ -33,19 +33,25 @@
          Debug\Recursos.obj
          Debug\vector.obj
          lib\glut32.lib
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Objeto::timer(float)" (?timer@Objeto@@UAEXM@Z) sin resolver
+     1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Objeto::timer(float)" (?timer@Objeto@@UAEXM@Z) sin resolver
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::timer(float)" (?timer@edificio@@UAEXM@Z) sin resolver
+     1>edificio.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::timer(float)" (?timer@edificio@@UAEXM@Z) sin resolver
+     1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::timer(float)" (?timer@edificio@@UAEXM@Z) sin resolver
      1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
      1>edificio.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
      1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall edificio::dibuja(void)" (?dibuja@edificio@@UAEXXZ) sin resolver
+     1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall ayuntamiento::timer(float)" (?timer@ayuntamiento@@UAEXM@Z) sin resolver
      1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall ayuntamiento::dibuja(void)" (?dibuja@ayuntamiento@@UAEXXZ) sin resolver
      1>ayuntamiento.obj : error LNK2001: símbolo externo "public: virtual void __thiscall ayuntamiento::subirNivel(unsigned int)" (?subirNivel@ayuntamiento@@UAEXI@Z) sin resolver
      1>Cuartel.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Cuartel::dibuja(void)" (?dibuja@Cuartel@@UAEXXZ) sin resolver
      1>Fabrica.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Fabrica::dibuja(void)" (?dibuja@Fabrica@@UAEXXZ) sin resolver
-     1>Lista_de.obj : error LNK2019: símbolo externo "public: void __thiscall Objeto::timer(float)" (?timer@Objeto@@QAEXM@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista_de::timer(float)" (?timer@Lista_de@@QAEXM@Z)
-     1>Lista_de.obj : error LNK2019: símbolo externo "public: void __thiscall edificio::timer(float)" (?timer@edificio@@QAEXM@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista_de::timer(float)" (?timer@Lista_de@@QAEXM@Z)
+     1>Fabrica.obj : error LNK2001: símbolo externo "public: virtual void __thiscall Fabrica::timer(float)" (?timer@Fabrica@@UAEXM@Z) sin resolver
      1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall personaje::dibuja(void)" (?dibuja@personaje@@UAEXXZ) sin resolver
-     1>C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe : fatal error LNK1120: 8 externos sin resolver
+     1>personaje.obj : error LNK2001: símbolo externo "public: virtual void __thiscall personaje::timer(float)" (?timer@personaje@@UAEXM@Z) sin resolver
+     1>C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe : fatal error LNK1120: 11 externos sin resolver
      1>Compilación del proyecto terminada "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:01.28
+Tiempo transcurrido 00:00:06.70

@@ -2,7 +2,7 @@
 #include "Disparo.h"
 
 
-personaje::personaje(int tipo)
+Personaje::Personaje(int tipo)
 {
 	if (tipo==0)
 	{
@@ -11,17 +11,17 @@ personaje::personaje(int tipo)
 }
 
 
-personaje::~personaje(void)
+Personaje::~Personaje(void)
 {
 }
 
-void personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int velocidad)
+void Personaje :: setStats ( unsigned int vida, unsigned int ataque,unsigned int velocidad)
 {
 	this -> vida_max = vida;
 	this -> ataque = ataque;
 	this -> velocidad_max = velocidad;
 }
-bool personaje:: mueve(vector destino)
+bool Personaje:: mueve(Vector destino)
 {
 	if (abs(destino.vx-posicion.vx)<=0.01&&abs(destino.vy-posicion.vy)<=0.01)
 	{
@@ -31,7 +31,7 @@ bool personaje:: mueve(vector destino)
 	velocidad=(destino-posicion).unitario()*(float)velocidad_max;
 	return 0;
 }
-bool personaje ::atacar (edificio &objetivo)
+bool Personaje ::atacar (Edificio &objetivo)
 {
 	if ((posicion-objetivo.getPoscion()).modulo()> rango)
 	{
@@ -41,7 +41,7 @@ bool personaje ::atacar (edificio &objetivo)
 	new Disparo (posicion,objetivo,ataque,salpicadura);
 	return 1;
 }
-void personaje :: subirNivel (unsigned int tipo)
+void Personaje :: subirNivel (unsigned int tipo)
 {
 	if (tipo ==1)
 	{

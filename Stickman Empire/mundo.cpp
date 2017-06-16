@@ -50,3 +50,12 @@ void Mundo::Tecla(unsigned char key)
 {
 
 }
+
+void Mundo::Raton(int button, int state, int x, int y)
+{
+
+}
+void Mundo:: RatonPasivo(int x, int y)
+{
+
+}

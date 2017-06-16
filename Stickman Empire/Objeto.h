@@ -6,8 +6,8 @@ class Objeto
 {
 protected:
 	bool visible;
-	vector posicion;
-	vector superificie;
+	Vector posicion;
+	Vector superificie;
 	float altura;
 public:
 	//constructor con altura y visibilidad por defecto a 0
@@ -15,7 +15,7 @@ public:
 	virtual ~Objeto(void);
 	virtual void dibuja(void);
 	virtual void timer (float tiempo);
-	vector getPoscion();
+	Vector getPoscion();
 
 	friend class Interaccion;
 };

@@ -1,22 +1,22 @@
 #pragma once
 #include <cmath>
 
-class vector
+class Vector
 {
 public:
-	vector(float x=0, float y=0);
-	virtual ~vector(void);
+	Vector(float x=0, float y=0);
+	virtual ~Vector(void);
 	float modulo();
 	float argumento();	// argumento del vector
 	void setValor(float x, float y);
 	float getX();
 	float getY();
-	vector operator - (vector &);
-	vector operator + (vector &);
-	vector operator * (float);
-	vector operator / (float);
-	float operator * (vector &);
-	vector unitario();
+	Vector operator - (Vector &);
+	Vector operator + (Vector &);
+	Vector operator * (float);
+	Vector operator / (float);
+	float operator * (Vector &);
+	Vector unitario();
 	float vx, vy;
 };
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "personaje.h"
+#include "Personaje.h"
 #include "Cuartel.h"
 #include "Fabrica.h"
 #include "Recursos.h"
@@ -19,7 +19,7 @@ class Lista_de
 
 	//Numero de "cosas" generadas
 	//Distinto del numero de tropas y demás
-	edificio  *lista [MAX];
+	Edificio  *lista [MAX];
 	//Vector que contiene edificios y personajes
 	Objeto *disparos[MAX];
 	//Vector que contiene disparos del equipo

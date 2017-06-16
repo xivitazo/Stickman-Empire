@@ -1,6 +1,7 @@
 #include "Mundo.h"
 #include "glut.h"
 #include <math.h>
+#include <stdio.h>
 
 void Mundo::RotarOjo()
 {
@@ -45,4 +46,12 @@ void Mundo::Inicializa()
 void Mundo::Tecla(unsigned char key)
 {
 
+}
+void Mundo::Raton(int button, int state, int x, int y)
+{
+	printf("%d\t%d\t%d\t%d\n", button ,state, x ,y);
+}
+void Mundo::RatonPasivo(int x, int y)
+{
+	//printf("%d\t%d\n",x,y);
 }

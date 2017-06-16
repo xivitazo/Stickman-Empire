@@ -63,11 +63,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ayuntamiento.h" />
+    <ClInclude Include="Ayuntamiento.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="Cuartel.h" />
     <ClInclude Include="Disparo.h" />
-    <ClInclude Include="edificio.h" />
+    <ClInclude Include="Edificio.h" />
     <ClInclude Include="Fabrica.h" />
     <ClInclude Include="Interaccion.h" />
     <ClInclude Include="Jugador.h" />
@@ -76,26 +76,26 @@
     <ClInclude Include="Mapa.h" />
     <ClInclude Include="Mundo.h" />
     <ClInclude Include="Objeto.h" />
-    <ClInclude Include="personaje.h" />
+    <ClInclude Include="Personaje.h" />
     <ClInclude Include="Recursos.h" />
-    <ClInclude Include="vector.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ayuntamiento.cpp" />
+    <ClCompile Include="Ayuntamiento.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Cuartel.cpp" />
     <ClCompile Include="Disparo.cpp" />
-    <ClCompile Include="edificio.cpp" />
+    <ClCompile Include="Edificio.cpp" />
     <ClCompile Include="Fabrica.cpp" />
     <ClCompile Include="Interaccion.cpp" />
     <ClCompile Include="Lista_de.cpp" />
     <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="Mundo.cpp" />
     <ClCompile Include="Objeto.cpp" />
-    <ClCompile Include="personaje.cpp" />
+    <ClCompile Include="Personaje.cpp" />
     <ClCompile Include="Qb-World.cpp" />
     <ClCompile Include="Recursos.cpp" />
-    <ClCompile Include="vector.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\glut32.lib" />

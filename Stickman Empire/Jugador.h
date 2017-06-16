@@ -7,7 +7,7 @@ class Jugador
 	float y_ojo;
 	float z_ojo;
 	Lista_de poblado;
-	ayuntamiento ayunta;
+	Ayuntamiento ayunta;
 public:
 	Jugador(void);
 	virtual ~Jugador(void);

@@ -1,6 +1,6 @@
 #pragma once
 #include "Objeto.h"
-class edificio : public Objeto
+class Edificio : public Objeto
 {
 protected:
 	unsigned int vida,vida_max;
@@ -21,8 +21,8 @@ protected:
 
 
 public:
-	edificio(unsigned int v=0);
-	virtual ~edificio(void);
+	Edificio(unsigned int v=0);
+	virtual ~Edificio(void);
 	void tecla();
 	void timer (float tiempo);
 	void dibuja();

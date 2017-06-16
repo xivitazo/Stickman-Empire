@@ -1,7 +1,7 @@
 #pragma once
 #include "edificio.h"
 #include "Recursos.h"
-class Fabrica : public edificio
+class Fabrica : public Edificio
 {
 protected:
 	Recursos produccion;

@@ -2,7 +2,7 @@
 #include "edificio.h"
 #include "personaje.h"
 #include "Lista_de.h"
-class Cuartel : public edificio
+class Cuartel : public Edificio
 {
 protected:
 	unsigned int limite_tropas, numero_tropas;

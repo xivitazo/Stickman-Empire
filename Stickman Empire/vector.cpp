@@ -1,64 +1,63 @@
 #include "vector.h"
 
 
-vector::vector(float x, float y)
+Vector::Vector(float x, float y)
 {
 	vx = x;
 	vy = y;
 }
-
-vector::~vector(void)
+Vector::~Vector(void)
 {
 }
 
-vector vector :: operator - (vector &v)
+Vector Vector :: operator - (Vector &v)
 {
-	vector aux;
+	Vector aux;
 	aux.vx =vx - v.vx;
 	aux.vy =vy - aux.vy;
 	return aux;
 }
 
-vector vector:: operator + (vector &v)
+Vector Vector:: operator + (Vector &v)
 {
-	vector aux;
+	Vector aux;
 	aux.vx =vx + v.vx;
 	aux.vy =vy + aux.vy;
 	return aux;
 }
 
-float vector:: operator * (vector &v)
+float Vector:: operator * (Vector &v)
 {
 	return vx*v.vx+vy*v.vy;
 }
 
-vector vector :: operator * (float n)
+Vector Vector :: operator * (float n)
 {
-	vector aux;
+	Vector aux;
 	aux.vx =vx *n;
 	aux.vy =vy *n;
 	return aux;
 }
-vector vector :: operator / (float n)
+Vector Vector :: operator / (float n)
 {
-	vector aux;
+	Vector aux;
 	aux.vx =vx /n;
 	aux.vy =vy /n;
 	return aux;
 }
 
-float vector::modulo()
+float Vector::modulo()
 {
 	return (float)sqrt(vx*vx+vy*vy);
 }
 
-float vector::argumento()
+float Vector::argumento()
 {
 	return (float)atan2(vy,vx);
 }
-vector vector:: unitario ()
+Vector Vector:: unitario ()
 {
-	vector u (vx,vy);
+	Vector u (vx,vy);
 	return u/modulo();
 
 }

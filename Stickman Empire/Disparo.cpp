@@ -2,7 +2,7 @@
 #include "Interaccion.h"
 #include "glut.h"
 
-Disparo::Disparo(vector posicion, edificio destino,unsigned int daño, unsigned int salpicadura )
+Disparo::Disparo(Vector posicion, Edificio destino,unsigned int daño, unsigned int salpicadura )
 {
 	//radio pequeño (copiado de Pang)
 	radio=0.1f;
@@ -19,7 +19,7 @@ Disparo::~Disparo(void)
 
 bool Disparo::Mueve(void)
 {
-	vector v;
+	Vector v;
 	v=(destino.posicion-posicion).unitario();
 //Hallas la direccion ue debe seguir el disparo de forma dinámica
 	velocidad = v*velocidad_max;

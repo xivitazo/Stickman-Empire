@@ -1,16 +1,16 @@
-#include "ayuntamiento.h"
+#include "Ayuntamiento.h"
 #include "Disparo.h"
 
 
-ayuntamiento::ayuntamiento(void)
+Ayuntamiento::Ayuntamiento(void)
 {
 }
 
 
-ayuntamiento::~ayuntamiento(void)
+Ayuntamiento::~Ayuntamiento(void)
 {
 }
-bool ayuntamiento:: atacar (edificio &objetivo)
+bool Ayuntamiento:: atacar (Edificio &objetivo)
 {
 	if ((objetivo.getPoscion()-posicion).modulo()>rango)
 	{

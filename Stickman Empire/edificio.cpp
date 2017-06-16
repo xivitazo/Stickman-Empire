@@ -1,21 +1,21 @@
 #include "edificio.h"
 
 
-edificio::edificio(unsigned int v)
+Edificio::Edificio(unsigned int v)
 {
 	vida=v;
 }
 
 
-edificio::~edificio(void)
+Edificio::~Edificio(void)
 {
 }
 
-void edificio :: setTipo (unsigned int tipo)
+void Edificio :: setTipo (unsigned int tipo)
 {
 	this->tipo=tipo;
 }
 
-unsigned int edificio :: numero_generado=0;
-unsigned int edificio :: numero_total=0;
-unsigned int edificio :: nivel=0;
+unsigned int Edificio :: numero_generado=0;
+unsigned int Edificio :: numero_total=0;
+unsigned int Edificio :: nivel=0;

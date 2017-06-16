@@ -35,7 +35,7 @@ bool Lista_de:: agregar (unsigned int tipo,unsigned int especifico, unsigned int
 		}
 		else if (tipo ==3 && personajes<=max_personajes && cuarteles>=1 && lista[cuartel]->poderGenerar())
 		{
-			lista[numero]=new personaje (especifico);
+			lista[numero]=new Personaje (especifico);
 			personajes++;
 			numero++;
 		}
@@ -50,7 +50,7 @@ void Lista_de :: dibuja()
 	for(int n=0; n<numero;n++)
 	{
 		lista[n]->dibuja();
-		cosas[n]->dibuja();
+		disparos[n]->dibuja();
 	}
 }
 
@@ -101,6 +101,6 @@ void Lista_de :: timer (float tiempo)
 	for(int n=0;n<numero;n++)
 	{
 		lista[n]->timer(tiempo);
-		cosas[n]->timer(tiempo);
+		disparos[n]->timer(tiempo);
 	}
 }

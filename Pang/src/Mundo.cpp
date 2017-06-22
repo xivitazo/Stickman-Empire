@@ -47,11 +47,18 @@ void Mundo::Tecla(unsigned char key)
 {
 
 }
-void Mundo::Raton(int button, int state, int x, int y)
+void Mundo::Raton(int button, int state, int vx, int vy)
 {
-	printf("%d\t%d\t%d\t%d\n", button ,state, x ,y);
+	GLdouble x,y,z,modelview[16],proyeccion[16];
+	GLint viewport[4];
+	//printf("%d\t%d\t%d\t%d\n", button ,state, vx ,vy);
+	glGetDoublev(GL_MODELVIEW_MATRIX,modelview);//Coges la matriz Modelview
+	glGetDoublev(GL_PROJECTION_MATRIX,proyeccion);//Coges la matriz proyeccion
+	glGetIntegerv(GL_VIEWPORT,viewport);//Coges el punto de vista
+	gluUnProject(vx,vy,0,modelview,proyeccion,viewport,&x,&y,&z);//En x y z se guardan los valores de las coordenadas respecto del mundo
+	//printf("%lf\t%lf\t%lf\n", x,y,z);
 }
 void Mundo::RatonPasivo(int x, int y)
 {
-	//printf("%d\t%d\n",x,y);
+	printf("%d\t%d\n",x,y);
 }

@@ -1,11 +1,6 @@
-﻿Compilación iniciada a las 16/06/2017 22:15:31.
+﻿Compilación iniciada a las 17/06/2017 20:37:29.
      1>Proyecto "C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Stickman Empire\Stickman Empire.vcxproj" en el nodo 2 (Build destinos).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ilib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Mundo.cpp "Qb-World.cpp"
-         Qb-World.cpp
-         Mundo.cpp
-         Generando código...
-       Link:
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javi\Documents\UNI\Info Industr\Stickman-Empire\Debug\Stickman Empire.lib" /MACHINE:X86 Debug\Ayuntamiento.obj
          Debug\Color.obj
          Debug\Cuartel.obj
@@ -45,4 +40,4 @@
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.59
+Tiempo transcurrido 00:00:00.50
